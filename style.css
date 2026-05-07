@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Miranda+Sans:ital,wght@0,400..700;1,400..700&family=Playwrite+DE+SAS:wght@100..400&family=Signika:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 249, 246);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    padding: 12px;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav img {
+    width: 45px;
+}
+
+.left-nav p {
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(255, 65, 96);
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.link-nav {
+    display: flex;
+    gap: 35px;
+}
+
+.link-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-nav a:hover {
+    color: rgb(255, 65, 96);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.right-nav {
+    background-color: rgb(255, 65, 96);
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.right-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.right-nav:hover {
+    background-color: rgb(209, 46, 73);
+}
+
+/* HAMBURGER */
+.menu-toggle {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: rgb(255, 65, 96);
+}
+
+/* MOBILE BUTTON HIDE */
+.mobile-btn {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 2px 30px;
+}
+
+.text-ban {
+    width: 90%;
+}
+
+.text-ban h1 {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+.pink-text {
+    color: rgb(255, 65, 96);
+}
+
+.text-ban p {
+    color: #272727;
+    font-family: "Miranda Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.text-ban a {
+    background-color: rgb(255, 65, 96);
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-ban a:hover {
+    background-color: rgb(209, 46, 73);
+}
+
+.img-ban img {
+    width: 100%;
+    position: block;
+    border-radius: 50px;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    gap: 25px;
+}
+
+.content1 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+}
+
+.card-berry {
+    display: flex;
+    gap: 10px;
+}
+
+.cardb {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 190px;
+    padding: 7px;
+
+}
+
+.cardb img {
+    margin-top: 7px;
+    width: 65px;
+    background-color: rgb(220, 156, 167);
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.cardb .cardb-title {
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.cardb:hover {
+    box-shadow: 0px 0px 5px pink;
+}
+
+.content2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.cake-photo {
+    position: relative;
+}
+
+.cake-content {
+    height: 300px;
+    border: 3px solid pink;
+    border-radius: 20px;
+    position: block;
+}
+
+.stiker {
+    position: absolute;
+    width: 100px;
+    bottom: -20px;
+    right: -35px;
+
+}
+
+.au {
+    color: rgb(252, 111, 135);
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+.au-content h3 {
+    margin-bottom: 15px;
+}
+
+.btn-content {
+    margin-top: 20px;
+}
+
+.btn-content a {
+    text-decoration: none;
+    background-color: rgb(253, 103, 128);
+    padding: 7px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-content a:hover {
+    background-color: rgb(209, 46, 73);
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-title i {
+    color: rgb(255, 84, 113);
+    font-weight: 700;
+}
+
+.menu-title img {
+    width: 30px;
+}
+
+.list-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-menu img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.card-menu {
+    border: 2px solid pink;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card-menu:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px rgb(255, 81, 110);
+}
+
+.co {
+    display: flex;
+    justify-content: space-between;
+    margin: 9px 10px;
+    color: rgb(255, 66, 97);
+    font-weight: 600;
+}
+
+.btn-co a {
+    text-decoration: none;
+    background-color: rgb(255, 66, 97);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.btn-co a:hover {
+    background-color: rgb(209, 46, 73);
+}
+
+.all-menu {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.all-menu a {
+    display: inline-block;
+    background-color: rgb(255, 66, 97);
+    padding: 7px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.all-menu a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 5px rgb(233, 73, 100);
+}
+
+.gfy {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 50px;
+}
+
+.gfy-photo img {
+    max-width: 400px;
+}
+
+.benefit h5 {
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(255, 65, 96);
+    margin-bottom: 20px;
+}
+
+.benefit h2 {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+}
+
+.benefit p {
+    margin-bottom: 30px;
+}
+
+.list-benefit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.ben-straw {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ben-icon {
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 211, 219);
+    background-color: rgb(255, 72, 102);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.customer {
+    padding: 15px 50px;
+}
+
+.customer h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-cust-comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-comment {
+    border: 1px solid rgb(255, 68, 99);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.com-text {
+    margin-bottom: 15px;
+}
+
+.com-text p {
+    padding: 3px 20px;
+}
+
+.com-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-photo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.email {
+    display: flex;
+    background-image: url(img/background\ email.jpg);
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.img-email img {
+    width: 270px;
+}
+
+.text-email h2 {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+
+    font-size: 40px;
+}
+
+/* .send-email {
+    width: 30%;
+} */
+
+input {
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    border: 2px solid rgb(255, 170, 184);
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: palevioletred;
+    box-shadow: 0px 0px 5px palevioletred;
+}
+
+button {
+    border: none;
+    background-color: rgb(255, 26, 64);
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.link-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-bot {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+}
+
+.social-media {
+    padding: 15px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    width: 50px;
+}
+
+.brand p {
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(255, 65, 96);
+    font-size: 20px;
+}
+
+.list-sm {
+    margin-top: 15px;
+}
+
+.list-sm a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.quick-links {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #272727;
+}
+
+.quick-links a:hover {
+    color: rgb(255, 53, 87);
+}
+
+.customer-care {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-care a {
+    text-decoration: none;
+    color: #272727;
+}
+
+.customer-care a:hover {
+    color: rgb(255, 53, 87);
+}
+
+footer {
+    background-color: rgb(255, 21, 60);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* responsive */
+
+@media (max-width: 1226px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1112px) {
+    .list-menu {
+        flex-wrap: wrap;
+    }
+
+    .text-ban h1 {
+        font-size: 40px;
+    }
+
+    .img-ban {
+        min-width: 200px;
+    }
+
+    .banner {
+        background-image: url(img/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+    }
+
+    .img-ban {
+        display: none;
+    }
+
+    .text-ban{
+        background: linear-gradient(to right, #ffffff,#ffffff00);
+        padding-left: 10px ;
+    }
+    .text-ban p{
+        max-width:400px ;
+    }
+
+}
+
+@media (max-width: 994px) {
+    .gfy {
+        flex-direction: column;
+    }
+
+    .card-cust-comment {
+        flex-wrap: wrap;
+    }
+
+    .card-comment {
+        min-width: 280px;
+    }
+
+    .email {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .img-email {
+        display: none;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .social-media {
+        width: 100%;
+        text-align: center;
+    }
+
+    .brand {
+        justify-content: center;
+    }
+
+    .link-bottom {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .desktop-btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .link-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background: white;
+        width: 220px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        gap: 20px;
+    }
+
+    .link-nav.active {
+        display: flex;
+    }
+
+    .mobile-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-ban p{
+        max-width:250px ;
+    }
+}
+
+@media (max-width: 650px) {
+    .list-benefit {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .card-berry {
+        flex-direction: column;
+    }
+
+    .cardb {
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+@media (max-width: 546px) {
+    .content2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gfy-photo img{
+        width: 300px;
+    }
+}
